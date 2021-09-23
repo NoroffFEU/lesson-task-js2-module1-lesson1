@@ -5,7 +5,7 @@
 Make a request to the following API endpoint:
 
 ```
-https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/breakingbad
+https://www.breakingbadapi.com/api/characters
 ```
 
 Display a loading indicator while the call is in progress.
