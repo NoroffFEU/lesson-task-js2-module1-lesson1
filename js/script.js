@@ -1,4 +1,4 @@
-const url = "https://noroffcors.herokuapp.com/https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/breakingbad";
+const url = "https://www.breakingbadapi.com/api/characters";
 
 const resultContainer = document.querySelector(".result-container");
 
@@ -7,7 +7,7 @@ async function callApi() {
         const response = await fetch(url);
         const json = await response.json();
         console.log(json);
-        createHtml(json.data);
+        createHtml(json);
     } catch (error) {
         console.log(error);
         resultContainer.innerHTML = displayMessage("error", error);
