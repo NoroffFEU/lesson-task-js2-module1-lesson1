@@ -1,13 +1,12 @@
 // Question 2:
-
 const user = {
-  firstName: "Ola",
-  lastName: "Ola",
-  module: "JavaScript 2",
+  firstName: 'Ola',
+  lastName: 'Nordmann',
+  currentModule: 'JavaScript 2',
 };
 
 const firstName = user.firstName;
 const lastName = user.lastName;
-const isAdmin = user.isAdmin;
+const currentModule = user.currentModule;
 
-const greeting = `My name is ${user.firstName} ${user.lastName} and I am on ${user.module}.`;
+const greeting = `My name is ${user.firstName} ${user.lastName} and I am on ${user.currentModule}.`;
