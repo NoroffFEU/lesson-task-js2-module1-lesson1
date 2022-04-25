@@ -1,27 +1,15 @@
 # JavaScript 2 - Module 1
 
-## Lesson Task 1 Questions
+## Lesson Task 1 Question
 
-### Question 1:
+Make a request to the following API endpoint:
 
-Begin in `question-1.js`:
+```
+https://www.breakingbadapi.com/api/characters
+```
 
-Destructure the `id`, `title`, `genre` and `year` properties from the `game` object.
+Display a loading indicator while the call is in progress.
 
-### Question 2:
+Display the `name`, `birthday` and `nickname` properties as well as each occupation as a tag (an inline element like a span).
 
-Begin in `question-2.js`:
-
-Change the dot notation variable assignments to be destructured from the object, as well as fix any incorrect/outdated variable names.
-
-### Question 3:
-
-Begin in `question-3.js`:
-
-Destructure the `make`, `model` and `price` properties as parameters and update any references to these variables.
-
-### Question 4:
-
-Begin in `question-4.js`:
-
-Destructure the first two values from the `temperatures` array and then destructure the rest of the array values as a single value using the rest parameter.
+Display only the first 7 items.
